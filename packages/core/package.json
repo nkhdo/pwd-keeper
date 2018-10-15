@@ -1,6 +1,14 @@
 {
   "name": "core",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx parcel index.html",
+    "build": "npx parcel build src/index.js"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3"
+  },
+  "dependencies": {}
 }
